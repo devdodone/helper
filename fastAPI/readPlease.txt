@@ -1,0 +1,25 @@
+INSTALL STEP
+Anaconda 
+https://www.anaconda.com/products/individual#Downloads
+
+Homebrew
+commandline $> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Docker on Mac
+https://docs.docker.com/docker-for-mac/install/
+
+Heroku
+https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+Heroku Signup
+https://signup.heroku.com/login
+
+step: Heroku
+install heroku cli
+
+commandline $> heroku login
+
+
+
+commandline $> mkdir folder_project_name
+commandline $> cd folder_project_name
+commandline $> 
