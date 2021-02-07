@@ -18,8 +18,10 @@ install heroku cli
 
 commandline $> heroku login
 
-
-
 commandline $> mkdir folder_project_name
 commandline $> cd folder_project_name
 commandline $> 
+
+commandline $> conda create -n folder_project_name
+commandline $> conda activate folder_project_name
+commandline $> conda install -c conda-forge face_recognition fastapi uvicorn python-multipart pillow
