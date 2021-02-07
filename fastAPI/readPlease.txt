@@ -1,6 +1,12 @@
 INSTALL STEP
 Anaconda 
 https://www.anaconda.com/products/individual#Downloads
+##--
+commandline $> conda create -n tutorial_deploy_model python=3.7
+commandline $> conda create -n folder_project_name
+commandline $> conda activate folder_project_name
+commandline $> conda install -c conda-forge face_recognition fastapi uvicorn python-multipart pillow
+
 
 Homebrew
 commandline $> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -21,7 +27,3 @@ commandline $> heroku login
 commandline $> mkdir folder_project_name
 commandline $> cd folder_project_name
 commandline $> 
-
-commandline $> conda create -n folder_project_name
-commandline $> conda activate folder_project_name
-commandline $> conda install -c conda-forge face_recognition fastapi uvicorn python-multipart pillow
